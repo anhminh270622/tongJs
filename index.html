@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/style.css">
+</head>
+
+<body>
+    <div id="math">
+        <div class="text">
+            Vui lòng nhập
+        </div>
+        <input type="text" id="a">
+        <p>+</p>
+        <input type="text" id="b">
+        <button id="tong" onclick="show()">=</button>
+        <input type="text" id="c">
+
+    </div>
+    <script>
+        function show() {
+            var a = document.getElementById("a").value; // A String value
+            var b = document.getElementById("b").value; // A String value
+            var c = Number(a) + Number(b);
+            document.getElementById("c").value = c;
+        }
+    </script>
+</body>
+
+</html>

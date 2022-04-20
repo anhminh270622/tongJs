@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+#math{
+    position:absolute;
+    width: 200px;
+    height: 130px;
+    background-color:rgb(145, 147, 193);
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    border-radius: 5px;
+}
+#a, #b, #c{
+    width: 70px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+}
+
+
+#tong{
+    display: block;
+    width: 20px;
+    border-radius:2px;
+    outline: none;
+    border: none;
+    margin: 3px 0;
+}
